@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.menu {}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul li {
+    margin-left: 15px;
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "lato", sans-serif;
+}
+
+.animated {
+    background-color: #B31A1F;
+    width: 22%;
+    height: 85vh;
+    margin: auto;
+    margin-left: 50%;
+}
+
+.image {
+    margin-top: 100px;
+    margin-left: -68px;
+    margin-top: 250px;
+}
