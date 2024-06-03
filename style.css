@@ -29,12 +29,36 @@
     background-color: #B31A1F;
     width: 22%;
     height: 85vh;
+    background-size: 0% 100%;
     margin: auto;
     margin-left: 50%;
+    animation: redcolor 1s ease 0.5s 1 forwards;
 }
+
+@keyframes redcolor {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+
+    100% {
+        width: 22%;
+        opacity: 1;
+    }
+}
+
 
 .image {
     margin-top: 100px;
     margin-left: -68px;
-    margin-top: 250px;
+    margin-top: -450px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: burger 1s ease 1s 1 normal forwards;
+}
+
+@keyframes burger {
+
+    100% {
+        transform: translateY(700px);
+    }
 }
